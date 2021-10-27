@@ -1,0 +1,10 @@
+,name,accuracy,run time cpu only,size
+0,actually_quantized_model_for_the_TFLite_backend.tflite,0.956,2779.818,3039968
+1,aware_quantized_tflite_model.tflite,0.936,2782.475,3041128
+2,only_16_bit_activations_with_8_bit_weights.tflite,0.954,340.806,3120768
+3,post_training_dynamic_range_quantization.tflite,0.956,2742.804,2997200
+4,post_training_float16_quantization_model.tflite,0.952,16.13,5559600
+5,pruned_tflite.tflite,0.954,16.077,11084464
+6,quantized_and_pruned_tflite.tflite,0.956,2741.036,2997200
+7,sparsity_clustered_model_tflite_file.tflite,0.952,2742.798,2997200
+8,BASE MOSEL,0.952,30.2,34768813
